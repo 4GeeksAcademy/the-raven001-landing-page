@@ -11,7 +11,7 @@ const Card = (props) => {
       ></img>
       <div className="card-body">
         <h4 className="card-title text-center">{props.title}</h4>
-        <p className="card-text">
+        <p className="card-text text-center">
           {props.description}
         </p>
       </div>

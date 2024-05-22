@@ -2,6 +2,7 @@ import React from "react";
 import Card from "./Card";
 import NavBar from "./Nav-bar";
 import Header from "./Header"
+import BottomNavbar from "./BottomNavbar";
 //include images into your bundle
 
 //create your first component
@@ -17,10 +18,10 @@ const Home = () => {
 					<Card imageURL ="https://picsum.photos/500/325?random=2" title="Card Title" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "/>
 					<Card imageURL ="https://picsum.photos/500/325?random=3" title="Card Title" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "/>
 					<Card imageURL ="https://picsum.photos/500/325?random=4" title="Card Title" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "/>
-
+				
 				</div>
 			</div>
-
+			<BottomNavbar />
 		</div>
 	);
 };
