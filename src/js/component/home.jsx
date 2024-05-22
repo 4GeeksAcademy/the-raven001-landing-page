@@ -8,11 +8,11 @@ import Header from "./Header"
 const Home = () => {
 
 	return (
-		<div className=" text-center">
+		<div>
 			<NavBar />
 			<div className="container">
 				<Header />
-				<div className="d-flex justify-content-around my-5">
+				<div className="row g-3 my-5">
 					<Card imageURL ="https://picsum.photos/500/325?random=1" title="Card Title" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "/>
 					<Card imageURL ="https://picsum.photos/500/325?random=2" title="Card Title" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "/>
 					<Card imageURL ="https://picsum.photos/500/325?random=3" title="Card Title" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "/>
